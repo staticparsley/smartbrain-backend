@@ -1,0 +1,29 @@
+{
+  "name": "smartbrain-backend",
+  "version": "1.0.0",
+  "description": "Backend for SmartBrain WebApp - Based on Udemy Course \"The Complete Web Developer in 2018: Zero to Mastery\"",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staticparsley/smartbrain-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staticparsley/smartbrain-backend/issues"
+  },
+  "homepage": "https://github.com/staticparsley/smartbrain-backend#readme"
+}
